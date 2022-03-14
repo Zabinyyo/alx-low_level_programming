@@ -6,21 +6,14 @@
  */
 int main(void)
 {
-<<<<<<< HEAD
-int num;
-num = 97;
-while (num <= 122)
-putchar(num);
-num++;
-=======
-int n;
-n = 97;
-while (n <= 122)
-{
-putchar(n);
-p++;
-}
->>>>>>> c38d008b18676f16774155151031a0fcc1c46752
-putchar('\n');
+
+	char letter;
+
+	for (letter = 'a'; letter <= 'z'; letter++)
+		putchar(letter);
+
+	putchar('\n');
+
+
 return (0);
 }
