@@ -1,21 +1,18 @@
 #include "main.h"
 
 /**
- * main - Entry point
- * Write a program that prints _putchar, followed by a new line.
+ * main - check the code.
  *
- * Return: always 0 (Success)
+ * Return: Always 0.
  */
 int main(void)
 {
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
-	_putchar('\n');
-	return (0);
+    print_times_table(3);
+    _putchar('\n');
+    print_times_table(5);
+    _putchar('\n');
+    print_times_table(98);
+    _putchar('\n');
+    print_times_table(12);  
+    return (0);
 }
