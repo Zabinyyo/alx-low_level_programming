@@ -1,27 +1,23 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * _strpbrk - bytes
- * @s: pointer to char
- * @accept: pointer to char
- * Return: NULL
+ * _isalpha - check the code for Holberton School students.
+ *
+ * @c: is c an integer argument
+ *
+ * Return: Always 0.
  */
 
-char *_strpbrk(char *s, char *accept)
+int _isalpha(int c)
 {
-	int i;
 
-	while (*s)
+	if (c >= 97 && c <= 122)
 	{
-		for (i = 0; accept[i]; i++)
-		{
-			if (*s == accept[i])
-			{
-				return (s);
-			}
-		}
-		s++;
+		return (1);
 	}
-	return (NULL);
+	else if (c >= 65 && c <= 90)
+	{
+		return (1);
+	}
+	return (0);
 }
