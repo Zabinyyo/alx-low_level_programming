@@ -1,6 +1,17 @@
-#ifndef _SUM_LIKE_MACRO_
-#define _SUM_LIKE_MACRO_
+#include "0-object_like_macro.h"
+#include "0-object_like_macro.h"
+#include <stdio.h>
 
-#define SUM(x, y) ((x) + (y))
+/**
+ * main - check the code for Holberton School students.
+ *
+ * Return: Always 0.
+ */
+int main(void)
+{
+    int s;
 
-#endif
+    s = 98 + SIZE;
+    printf("%d\n", s);
+    return (0);
+}
