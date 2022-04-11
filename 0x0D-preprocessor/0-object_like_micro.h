@@ -1,8 +1,7 @@
-#ifndef FILE_PI
-#define FILE_PI
+#ifndef FILE_MACRO
+#define FILE_MACRO
+#define SIZE 1024
 
-#define PI 3.14159265359
 
 
 #endif
-
