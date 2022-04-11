@@ -1,7 +1,8 @@
-#ifndef _OBJECT_LIKE_MACRO_
-#define _OBJECT_LIKE_MACRO_
+#ifndef FILE_PI
+#define FILE_PI
 
-#define SIZE 1024
+#define PI 3.14159265359
+
 
 #endif
 
