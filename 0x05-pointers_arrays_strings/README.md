@@ -1,1 +1,1 @@
-Pinters in C
+Pointers, Arrays and Strings in C
